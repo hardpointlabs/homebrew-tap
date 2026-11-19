@@ -1,20 +1,20 @@
 # Updated by the hardpointlabs/invar release workflow.
 cask "invar" do
-  version "1.1.2"
+  version "1.1.3"
 
   on_macos do
     on_arm do
-      sha256 "6b5e6aa35691065433824b540c82bccae29935496b7d2ff640d3225c977c6b38"
+      sha256 "90e518ebd63ec79324aab1a491db1a53ca7e9dad0dba5ec4d0386559fc8a8edf"
       url "https://github.com/hardpointlabs/invar/releases/download/v#{version}/invar_Darwin_arm64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b19aca5fda038d973855563ab628eee38eefb0f60e00b6111f6fbff2267fbceb"
+      sha256 "103584243c622c7af35fb194eb506c2d2a149ffede8b9aba5debb3e01bff98f0"
       url "https://github.com/hardpointlabs/invar/releases/download/v#{version}/invar_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7412baf63ceebf42cf3cb296efbf76e4379d96715be87f0f4e4bb281ca0a0fcb"
+      sha256 "81dd00b49f8b737f7d08b97ebf318693f6c18b9898c7ae55225f8b0b2d43f3cc"
       url "https://github.com/hardpointlabs/invar/releases/download/v#{version}/invar_Linux_x86_64.tar.gz"
     end
   end
